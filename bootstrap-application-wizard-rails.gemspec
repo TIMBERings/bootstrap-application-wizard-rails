@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
   gem.version       = ::BootstrapApplicationWizard::Rails::VERSION
 
   gem.add_dependency 'railties', '>= 3.0'
-  gem.add_dependency 'coffee-rails', '~> 3.2.1'
+  gem.add_dependency 'coffee-rails', '>= 3.2.1'
   gem.add_development_dependency 'bundler', '>= 1.0'
   gem.add_development_dependency 'rails', '>= 3.0'
 end
